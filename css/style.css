@@ -1,0 +1,32 @@
+:root {
+    /*Declaração de variáveis*/
+    --cor-letra-h1: #290b46;
+    --cor-letra-h2: #0c0513;
+    --fonte-padrao: 'Vibur', sans-serif;
+    --cor-fundo: #8500a0;
+    --cor-fundo-div: #0760a8;
+    --img-width:350px;
+    --img-height: auto;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor-fundo);
+}
+
+
+h1 {
+     color: var(--cor-letra-h1);
+}
+
+img {
+  width: var(--img-width);
+  height: var(--img-width);    
+}
+div{
+    /*100% viewport width
+    width 100vw;
+    /*100% viewport hetght*/
+    height: 100vh;
+    background-color: var(--cor-fundo-div);
+}
